@@ -143,10 +143,11 @@ print(y)
 ### Operations <a name="ops"></a>
 | Operator | Description     |Documentation|
 | :------------- | :------------- |:---------|
-|`np.add(x,y)`|Addition|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.add.html)|
-|`np.substract(x,y)`|Subtraction|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.subtract.html#numpy.subtract)|
-|`np.divide(x,y)`|Division|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.divide.html#numpy.divide)|
-|`np.multiply(x,y)`|Multiplication|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html#numpy.multiply)|
+|`x + y`|Addition|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.add.html)|
+|`x - y`|Subtraction|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.subtract.html#numpy.subtract)|
+|`x / y`|Division|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.divide.html#numpy.divide)|
+|`x * y`|Multiplication|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html#numpy.multiply)|
+|`x @ y`|Matrix multiplication|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.matmul.html#numpy-matmul)|
 |`np.sqrt(x)`|Square Root|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sqrt.html#numpy.sqrt)|
 |`np.sin(x)`|Element-wise sine|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sin.html#numpy.sin)|
 |`np.cos(x)`|Element-wise cosine|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cos.html#numpy.cos)|
@@ -162,7 +163,7 @@ Remember: NumPy array operations work element-wise.
 # with bigger dimension
 a = np.array([1, 2, 3])
 b = np.array([(1, 2, 3), (4, 5, 6)])
-print(np.add(a, b))
+print(a + b)
 >>> [[2 4 6]
      [5 7 9]]
 ```
