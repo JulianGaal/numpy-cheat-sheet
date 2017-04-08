@@ -22,7 +22,7 @@ via Anaconda:
 ```
 $ conda install --yes --file requirements.txt
 ```
-This will install all the packages to your environment. 
+This will install all the packages mentioned in "Currenty includes" to your environment. 
 
 ### Future additions:
 * ROS <br/>
