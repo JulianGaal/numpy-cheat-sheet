@@ -6,6 +6,16 @@ This serves as a cheat sheet for Matplotlib, a 2d plotting library for Python.
 
 Not a total beginner? Jump straight down to the [examples](#examples) or get the [jupyter notebook file](https://github.com/juliangaal/python-cheat-sheet/blob/master/Matplotlib/examples.ipynb). Also, the official [example library](http://matplotlib.org/examples/index.html) is pretty sweet.
 
+If you don't already have it **installed**:
+```
+$ pip install matplotlib
+```
+or
+```
+$ conda install matplotlib
+```
+Or check out the official [installation guide](http://matplotlib.org/users/installing.html).
+
 ## Index
 1. [Prepare Data](#prepare)
 2. [Plots](#plots)
