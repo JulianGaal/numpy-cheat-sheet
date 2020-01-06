@@ -336,7 +336,7 @@ print(d)
 </br>
 
 ## Tricks <a name="tricks"></a>
-This is a growing list of examples. Know a good trick? Let me know [here](twitter.com/JulianGaal) or fork it and create a pull request.
+This is a growing list of examples. Know a good trick? Let me know [here](https://twitter.com/JulianGaal) or fork it and create a pull request.
 
 *boolean indexing* (available as separate `.py` file [here](https://github.com/JulianGaal/python-cheat-sheet/blob/master/code/boolean-indexing.py)
 ```python
